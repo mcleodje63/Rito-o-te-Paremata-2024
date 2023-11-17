@@ -21,9 +21,9 @@
     </div>
   </div>
   <div class="row">
-    <div class="left">
+    <section class="section content left">
       <p>My name is Jessie McLeod, I’m 16, and a year 12 student at Craighead Dioscean I live in Timaru, a port town two hours south of Christchurch, and have for my whole life. This constant stability in a chaotic world has allowed me to get involved and make connections in a variety of areas which I hold a passion for. In my spare time I enjoy spending time outdoors with my friends and family, cooking, reading and writing poetry, but also coding, photography, watching tv, football and playing guitar.</p>
-    </div>
+    </section>
     <div class="right">
       <img src="seaweek.jpg" alt="Seaweek" />
     </div>
@@ -32,22 +32,22 @@
     <div class="left">
       <img src="scumna.JPG" alt="sumnerYouthGroup" />
     </div>
-    <div class="right">
+    <section class="selection content right">
       <ul>
         <li>Top SVA Volunteer Craighead 2023</li>
         <li>Member of national Anglican General Snyod 2024</li>
-        <li>Experience working people, from babies to seniors</li>
+        <li>Experience working with people, from babies to seniors</li>
       </ul>
       <p>Since the start of this year, I’ve been on Vestry at St John’s Anglican Church, and attended Christchurch Dioscean Synod, which has been a great experience for me, and I plan to remain in this role until I’ve graduated high school. Another aspect of St. Johns Church which I am heavily involved in, is our church's A Rocha’s EcoChurch group, which involves working in organising events, teaming up with people from different generations/backgrounds, and sending a lot of emails.</p>
       <br />
-    </div>
+    </section>
   </div>
   <div class="row">
-    <div class="left">
+    <section class="selection content left">
       <p>During my time at Craighead, I was lucky enough to be selected to attend two model EU’s held at the University of Canterbury, which allowed me to explore diplomacy and working with others. Volunteering for my community has also been very important to me, I’ve been involved in helping with the Craighead uniform shop, Sunday school, Sustainable Coastlines, early vote counting, as well as many others, and gathered over 100 hours on the SVA website.</p>
       <br />
       <p>I want to be a part of Rito to discover hands on the inner workings of a system which affects me and learn more about Aotearoa New Zealand’s government. I may not know much about Parliament, however I’m naturally a curious and interested person, so this role is right for me.</p>
-    </div>
+    </section>
     <div class="right"><img src="@MtCook.JPG" width="100%" alt="mountCook" /></div>
   </div>
 </main>
@@ -58,7 +58,6 @@
   ul {
     background-color: #20cca4;
     border: 1px solid #19a182;
-    text-align: center;
     padding: 5vh;
   }
   h2 {
