@@ -8,5 +8,6 @@
 <style>
   footer {
     text-align: center;
+    background-color: #20cca4;
   }
 </style>
