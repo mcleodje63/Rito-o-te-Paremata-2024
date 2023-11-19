@@ -15,12 +15,12 @@
   <header><Header /></header>
 
   <div class="cropped-image">
-    <video id="myVideo" max-width="100%" height="auto" autoplay loop muted>
-      <source src="rito2.0.mp4" type="video/mp4" />
-    </video>
     <div class="headings">
       <h2>Jessie McLeod</h2>
     </div>
+    <video id="myVideo" max-width="100%" height="auto" autoplay loop muted>
+      <source src="rito2.0.mp4" type="video/mp4" />
+    </video>
   </div>
   <section class="content section columns">
     <article class="column left">
@@ -45,13 +45,13 @@
         <li>Member of national Anglican General Snyod 2024</li>
         <li>Experience working with people, from babies to seniors</li>
       </ul>
-      <p>Since the start of this year, I’ve been on Vestry at St John’s Anglican Church, and attended Christchurch Dioscean Synod, which has been a great experience for me, and I plan to remain in this role until I’ve graduated high school. Another aspect of St. Johns Church which I am heavily involved in, is our church's A Rocha’s EcoChurch group, which involves working on organising events, teaming up with people from different generations and backgrounds, and sending a lot of emails.</p>
+      <p>Since the start of this year, I’ve been on Vestry at St John’s Anglican Church, and attended Christchurch Dioscean Synod, which has been a great experience for me, and I plan to remain in this role until I’ve graduated high school. Another aspect of St. Johns Church which I am heavily involved in, is our church's A Rocha’s EcoChurch group, which involves working on organising events, teaming up with people from different generations andbackgrounds, and sending a lot of emails.</p>
       <br />
     </article>
   </section>
   <section class="content section columns">
     <article class="column left">
-      <p>During my time at Craighead, I was lucky enough to be selected to attend two model EU’s held at the University of Canterbury, which allowed me to explore diplomacy and working with others. Volunteering for my community has also been very important to me, I’ve been involved in helping with Craighead uniform shop, Sunday school, Sustainable Coastlines, early vote counting, as well as many others, and gathered over 100 hours on the SVA website.</p>
+      <p>During my time at Craighead, I was lucky enough to be selected to attend two model EU’s held at the University of Canterbury, which allowed me to explore diplomacy and working with others. Volunteering for my community has also been very important to me, I’ve been involved in helping with the Craighead uniform shop, Sunday school, Sustainable Coastlines, early vote counting, as well as many others, and gathered over 100 hours on the SVA website.</p>
       <br />
       <p>I would like to be a part of Rito to discover hands on, the inner workings of a system which affects me and learn more about Aotearoa New Zealand’s government. I may not know much about Parliament, however I’m naturally a curious and interested person, so this role is right for me.</p>
     </article>
@@ -70,10 +70,6 @@
     border: 1px solid #19a182;
     padding: 1.5vw;
     font-size: 1.3vw;
-  }
-  h2 {
-    font-size: 130%;
-    text-align: center;
   }
   p {
     font-size: 1.6vw;
@@ -113,11 +109,10 @@
   .cropped-image h2 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    padding-left: 30vw;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: center;
-    font-size: 3em; /* Adjust the font size as needed */
-    text-shadow: 1px 1px 1px #000000;
+    font-size: 4em; /* Adjust the font size as needed */
+    text-shadow: 2px 2px 2px #000000;
   }
 </style>

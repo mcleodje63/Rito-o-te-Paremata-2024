@@ -14,7 +14,7 @@
     /* background-color: black; */
   }
   h1 {
-    margin: 0;
+    margin: 1vw;
     font-size: 3.7vw;
     color: #20cca4;
     text-shadow: 0.5px 0.5px 0.5px black;
@@ -22,5 +22,6 @@
   img {
     width: 1.8vw;
     margin: 0.3vw;
+    margin-top: 1vw;
   }
 </style>
