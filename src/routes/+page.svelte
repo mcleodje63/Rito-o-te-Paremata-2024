@@ -1,27 +1,15 @@
 <script>
   import Header from "$lib/Header.svelte";
   import Footer from "$lib/Footer.svelte";
-  import { onMount } from "svelte";
-  let vid;
-  onMount(() => {
-    vid = document.getElementById("myVideo");
-  });
 </script>
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <main>
-  <header><Header /></header>
-
-  <div class="cropped-image">
-    <div class="headings">
-      <h2>Jessie McLeod</h2>
-    </div>
-    <video id="myVideo" max-width="100%" height="auto" autoplay loop muted>
-      <source src="rito2.0.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <header>
+    <Header />
+  </header>
   <section class="content section columns">
     <article class="column left">
       <p>My name is Jessie McLeod, I’m 16, and a year 12 student at Craighead Dioscean school. I live in Timaru, a port town two hours south of Christchurch, and have for my whole life. This constant stability in a chaotic world has allowed me to get involved and make connections in a variety of areas which I hold a passion for. In my spare time I enjoy being outdoors with my friends and family, cooking, reading and writing poetry, but also coding, photography, watching tv, football and playing guitar.</p>
@@ -68,18 +56,14 @@
   ul {
     background-color: #20cca4;
     border: 1px solid #19a182;
-    padding: 1.5vw;
+    padding: 2.6vw;
     font-size: 1.3vw;
   }
   p {
     font-size: 1.6vw;
     margin-left: 5px;
   }
-  video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   /* come back to columns */
   .columns {
     display: flex;
@@ -91,28 +75,5 @@
   }
   .right {
     width: 50vw;
-  }
-
-  .cropped-image {
-    position: relative;
-    max-width: 100%; /* Set the desired width */
-    height: 315px; /* Set the desired height */
-    overflow: hidden; /* Hide overflowing parts of the image */
-  }
-
-  .cropped-image video {
-    width: 100vw; /* Make the image fill the container */
-    height: 24.5vw; /* Make the image fill the container */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    object-position: bottom;
-  }
-  .cropped-image h2 {
-    position: absolute;
-    top: 50%;
-    padding-left: 30vw;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 4em; /* Adjust the font size as needed */
-    text-shadow: 2px 2px 2px #000000;
   }
 </style>
